@@ -9,7 +9,9 @@
 
 これはツィッタでCell誌のlatest articleを取得し、twitterに自動投稿するpythonプログラム(cell_twitter.py)です。
 
-seleniumで最新のarticleのサイトを立ち上げて、タイトルと論文のurl取ってきて、twitter APIのtweepyツィートするようになっています。
+seleniumで最新のarticleのサイトを立ち上げて、タイトルと論文のurl取ってきて(スクレイピング)、twitter APIのtweepyツィートするようになっています。
+
+スクレイピングしているところはこんな感じになります（https://twitter.com/tokitky/status/1406833957312815115）
 
 Macで運用していましたので、croncで一定の時間にプログラムが稼働するようにし、botとしていました。
 
@@ -17,15 +19,7 @@ Macで運用していましたので、croncで一定の時間にプログラム
 
 1. Python 3.8, anaconda 3で動作確認しており、botはダイレクトにpythonのプログラムで動かしています。
 
-2. twitter development accountを申請し、
-
-CONSUMER_KEY
-
-CONSUMER_SECRET
-
-ACCESS_TOKEN 
-
-ACCESS_TOKEN_SECRET 
+2. twitter development accountを申請し、CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET 
 
 を事前に取得しておいてください（https://koleoblog.info/how_to_make_tweetbot/）。
 
@@ -49,7 +43,7 @@ https://review-of-my-life.blogspot.com/search/label/Python%2F%E3%82%B9%E3%82%AF%
 4. twitter botについて：
 https://aidemy.net/magazine/712/
 
-5.運用中のbot
+5. 運用中のbot
 https://twitter.com/dogface2016
 
 
