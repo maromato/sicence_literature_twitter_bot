@@ -17,7 +17,7 @@ Macで運用していましたので、croncで一定の時間にプログラム
 
 Python 3.8, anaconda 3で動作確認しており、botはダイレクトにpythonのプログラムで動かしています。
 
-twitterのオーソライゼーション、アクセストークンを事前に申請しておいてください。
+twitter development accountを申請し、アクセストークンその他のを事前に取得しておいてください（https://koleoblog.info/how_to_make_tweetbot/）。
 
 Chromedriver （https://sites.google.com/chromium.org/driver/home?authuser=0）
 
