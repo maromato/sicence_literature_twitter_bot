@@ -8,14 +8,19 @@
 ## 説明
 
 これはツィッタでCell誌のlatest articleを取得し、twitterに自動投稿するpythonプログラム(cell_twitter.py)です。
+
 seleniumで最新のarticleのサイトを立ち上げて、タイトルと論文のurl取ってきて、twitter APIのtweepyツィートするようになっています。
+
 Macで運用していましたので、croncで一定の時間にプログラムが稼働するようにし、botとしていました。
 
 ## 準備
 
 Python 3.8, anaconda 3で動作確認しており、botはダイレクトにpythonのプログラムで動かしています。
+
 twitterのオーソライゼーション、アクセストークンを事前に申請しておいてください。
+
 Chromedriver （https://sites.google.com/chromium.org/driver/home?authuser=0）
+
 を事前にダウンロードして適当な場所にフォルダーを作って入れておいてください（プログラムの中で指定）
 
 ## 実際のtwitter bot
