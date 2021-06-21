@@ -49,6 +49,10 @@ https://review-of-my-life.blogspot.com/search/label/Python%2F%E3%82%B9%E3%82%AF%
 4. twitter botについて：
 https://aidemy.net/magazine/712/
 
+5.運用中のbot
+https://twitter.com/dogface2016
+
+
 ## お問い合わせ
 なにかありましたら、toshihiko.oki(at)gmail.com
 までおしらせください((at)の部分を＠マークに変えてください)。
