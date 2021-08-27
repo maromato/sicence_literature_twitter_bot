@@ -21,7 +21,7 @@ Macで運用していましたので、croncで一定の時間にプログラム
 
 2. twitter development accountを申請し、CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET 
 
-を事前に取得しておいてください（https://koleoblog.info/how_to_make_tweetbot/）。
+を事前に取得しておいてください（https://koleoblog.info/how_to_make_tweetbot/ ）
 
 3. Chromedriver （https://sites.google.com/chromium.org/driver/home?authuser=0）
 
